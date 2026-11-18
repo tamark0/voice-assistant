@@ -1,0 +1,24 @@
+hello
+thank you
+please
+sorry
+yes
+no
+help
+water
+eat
+drink
+want
+need
+good
+bad
+name
+love
+like
+where
+what
+who
+bathroom
+home
+friend
+family

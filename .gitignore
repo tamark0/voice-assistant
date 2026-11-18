@@ -1,0 +1,14 @@
+# Large datasets
+data/*.zip
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/

@@ -1,0 +1,20 @@
+[project]
+name = "voice-sign-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "av==18.1.0",
+    "faster-whisper>=1.2.1",
+    "google-adk>=2.14.1",
+    "gradio>=6.32.0",
+    "litellm>=1.109.1",
+]
+
+[project.scripts]
+voice-sign-assistant = "voice_sign_assistant:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
