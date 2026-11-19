@@ -14,9 +14,9 @@ Mic / audio file
 
 **Scope of the MVP:** a small ASL vocabulary (about 24 words) of pre-recorded, single-word clips.
 Output is a sequence of isolated signs, **not fluent ASL**, and it is not a substitute for an interpreter.
-See `docs/WRITEUP.md` for the project write-up and `ai.md` for how AI tools were used.
+See `writeup.pdf` for the project write-up and `ai.md` for how AI tools were used.
 
-## Tech stack
+## Requirements
 
 | Part | Choice |
 |---|---|
@@ -27,14 +27,6 @@ See `docs/WRITEUP.md` for the project write-up and `ai.md` for how AI tools were
 | UI | Gradio |
 | Python / packages | 3.12, managed with `uv` |
 | Tested on | Windows 11, 16 GB RAM, NVIDIA GPU |
-
-## Requirements
-
-- Windows 11 (the commands below are PowerShell; Linux/macOS should work with equivalent commands but are untested)
-- [uv](https://docs.astral.sh/uv/) and Git
-- [Ollama](https://ollama.com/) and roughly 6 GB of free VRAM for Qwen3 8B (less VRAM works, but it is slower)
-- A free [Kaggle](https://www.kaggle.com/) account (to download the sign clips)
-- A microphone, or an audio file to upload
 
 ## Setup
 

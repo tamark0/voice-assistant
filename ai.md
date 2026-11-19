@@ -11,7 +11,7 @@
 
 ## 1. AI as a development assistant (Claude)
 
-I gave Claude the project brief (local voice-to-ASL MVP, Windows 11, 16 GB RAM, Python 3.12, `uv`, Ollama + Qwen3 8B, Whisper Small, Gradio, SQLite, Google ADK) and used it, over one long conversation, to:
+I gave Claude the project brief (local voice-to-ASL, Windows 11, 16 GB RAM, Python 3.12, `uv`, Ollama + Qwen3 8B, Whisper Small, Gradio, SQLite, Google ADK) and used it, over one long conversation, to:
 
 - **Design the architecture:** Whisper → ADK agent with two tools (`get_vocabulary`, `lookup_signs`) → SQLite → Gradio. Claude proposed the split between the LLM (chooses glosses) and the database (the only source of sign videos).
 - **Write the first version of the code:** all modules in `src/vsa/`, `app.py` and the setup commands.
